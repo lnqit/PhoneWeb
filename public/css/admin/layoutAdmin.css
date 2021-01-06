@@ -1,0 +1,72 @@
+.menu .sidenav {
+  height: 100%;
+  width: 17%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: white;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 0px 0px 20px;
+  transition: 0.5s;
+}
+
+.menu .sidenav .nav-link {
+  padding: 12px 8px 12px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+  display: block;
+  transition: 0.5s;
+}
+
+.menu .sidenav .nav-link i{
+	padding: 0px 8px 0px 0px;
+
+}
+
+.menu .sidenav .nav-link:hover {
+  color: orange;
+  padding: 12px 8px 12px 16px;
+  background: #eee;
+  transition: 0.5s;
+  font-size: 15px;
+}
+.menu .sidenav .logo{
+	text-align: center;
+	color: blue;
+  text-decoration: none;
+	font-size: 25px;
+  padding: 6px 8px 6px 16px;
+  display: block;
+	border-bottom: 1px solid black;
+}
+.body{
+	float: right;
+}
+.body .card-body .create{
+  width: 200px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.imgProduct{
+  width: 100px;
+  height: 100px;
+}
+.home .fa-product-hunt{
+  color: blue;
+}
+.home .fa-user{
+  color: #F5FA00;
+}
+.home .fa-shopping-cart{
+  color: #00FF09;
+}
+.home .fa-comments{
+  color: #F300FF;
+}
+.home i:hover{
+  color: orange;
+}
